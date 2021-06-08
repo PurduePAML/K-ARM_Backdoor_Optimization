@@ -67,6 +67,6 @@ Please check our results [here](https://pages.nist.gov/trojai/docs/results.html#
 
 ## Contacts 
 
-Guangyu Shen, [shen447@purdue.edu](shen447@purdue.edu)
+Guangyu Shen, [shen447@purdue.edu](shen447@purdue.edu)  
 Yingqi Liu, [liu1751@purdue.edu](liu1751@purdue.edu)
 
