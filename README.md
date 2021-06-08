@@ -62,8 +62,7 @@ Description about the main parameters:
 
 
 ## Results
-Please check our results [here](https://pages.nist.gov/trojai/docs/results.html#previous-leaderboards) with team name `Perspecta-PurdueRutgers`.
-The default settings of the parameters in this repo can achieve 90% detection accuracy on TrojAI round3 training and testing datasets. For scanning differnt types of models, some parameters might need tunning.
+Please check our results [here](https://pages.nist.gov/trojai/docs/results.html#previous-leaderboards) under the team name `Perspecta-PurdueRutgers`. The default settings of the parameters in this repo can achieve 90% detection accuracy on TrojAI round3 training and testing datasets. For scanning differnt types of models, some parameters might need tunning.
 
 
 ## Contacts 
