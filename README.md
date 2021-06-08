@@ -1,7 +1,7 @@
 # K-Arm Backdoor Optimization
 
 
-<img src="K_Arm_Arch.png" width="800px"/>
+<img src="K_Arm_Arch.png" width="600px"/>
 
 
 
