@@ -1,5 +1,10 @@
 # K-Arm Backdoor Optimization
 
+
+<img src="K_Arm_Arch.png" width="800px"/>
+
+
+
 This is the official repository of the ICML2021 paper [Backdoor Scanning for Deep Neural Networks through K-Arm Optimization](https://arxiv.org/abs/2102.05123) in PyTorch.
 
 If you find this code is useful for your research, please cite the following:
