@@ -30,13 +30,35 @@ We suggest to use Conda for testing the code on [TrojAI](https://pages.nist.gov/
     2. `pip install --upgrade trojai`
     3. `conda install jsonpickle`
 
+## Datasets
+### TrojAI 
+The code is tested on TrojAI datasets (round1-4). Please contact the [competition organizers](https://pages.nist.gov/trojai/docs/index.html) for the access of the data.
+### ImageNet
+We will release the ImageNet pre-trained models and code in the near future.
+
 ## Quick Start
 
-To test the code, simply run command
+To test the code on TrojAI datasets, simply run command
 
 ```bash
 $ python main.py --result_filepath <resultFilepath> --examples_dirpath <dataDirpath> --model_filepath <modelFilepath>
 ```
+To run the code on custom models, make sure your sample images in the `<examples_dirpath>` have the following format:
+```bash
+examples_dirpath/class_<class_id>_example_<example_id>.png
+```
+
+
+Description about the main parameters:
+- `<Beta>`: Coefficient in the K-Arm schedulor objective function
+- `<gamma,global(local)_theta>`: Parameters in the Arm Pre-screening procedure  
+- `<global(local,ratio)_det_bound>`: Trigger size bound for detecting different types of backdoors
+- `<epsilon_for_bandits>`: Controls the randomness during the K-Arm optimization
+
+
+## Results
+Please check our results [here](https://pages.nist.gov/trojai/docs/results.html#previous-leaderboards) with team name `Perspecta-PurdueRutgers`.
+The default settings of the parameters in this repo can achieve 90% detection accuracy on TrojAI round3 training and testing datasets. For scanning differnt types of models, some parameters might need tunning.
 
 
 ## Contacts 
