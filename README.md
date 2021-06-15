@@ -37,7 +37,7 @@ We suggest to use Conda for testing the code on [TrojAI](https://pages.nist.gov/
 
 ## Datasets
 ### TrojAI 
-The code is tested on TrojAI datasets (round1-4). Please contact the [competition organizers](https://pages.nist.gov/trojai/docs/index.html) for the access of the data.
+The code is tested on TrojAI datasets (round1-4). TrojAI datasets can be accessed at https://pages.nist.gov/trojai/docs/data.html
 ### ImageNet
 We will release the ImageNet pre-trained models and code in the near future.
 
